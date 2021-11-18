@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Адресс:">
+    </TextView>
+    <TextView
+        android:id="@+id/data_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lat:">
+    </TextView>
+    <TextView
+        android:id="@+id/data_datalat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lon:">
+    </TextView>
+    <TextView
+        android:id="@+id/data_lon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+<Button
+    android:id="@+id/changeData"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/toСhange">
+</Button>
+
+
+</LinearLayout>
+
